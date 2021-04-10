@@ -8,8 +8,10 @@ class DuplicateElementsInArray{
 		System.out.print("How many numbers do you want to take in to the array: ");
 		int x = scanner.nextInt();
 		System.out.println("****** Provide the inputs one by one in to the array ****** ");
+		
 		//crating a array called numbers 
 		int[] numbers = new int[x];
+		
 		//calling the method 
 		DuplicateElementsInArray duplicate = new DuplicateElementsInArray();
 		numbers = duplicate.getInputIntArray(x);
@@ -51,12 +53,9 @@ class DuplicateElementsInArray{
 					System.out.println(numbers[i] + " is a duplicate number");
 				}
 					
-
 			}
 
 		}
-
-
 	}
 
 
