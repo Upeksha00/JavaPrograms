@@ -1,9 +1,13 @@
 //There are things to improve in this code..... Specioly the output is very sarcastic..
 import java.util.Scanner;
+
 import java.util.Arrays;
+
 class DuplicateElementsInArray{
 
 	static public void main(String[] args){
+		
+		//taking the user inputs to set up the length of the array
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("How many numbers do you want to take in to the array: ");
 		int x = scanner.nextInt();
