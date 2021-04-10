@@ -1,0 +1,13 @@
+import java.util.Random;
+class Random1{
+
+	public static void main(String[] args){
+		Random rand = new Random();
+		int x = rand.nextInt(10);
+
+		System.out.println(x);
+		
+
+	}
+
+}
