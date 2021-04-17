@@ -4,12 +4,13 @@ class TwoSum{
 
 		
 		/*Find the two numbers which give the value of the inputed number when adding
-		 these numbers 
+		  out of these numbers precent in the array.
+		  Ex:-
 			int[] numbers = {2, 3, 4, 8};
 			given no = 7
-			Then the no which gives as the out put = 4 and 3 
+			Then the out put = 4 and 3 
 			if given = 12
-			Then the no which gives as the out put = 4 and 8
+			Then the out put = 4 and 8
 		*/
 		
 		int[] numbers = {2 , 5 , 7 , 3 , 10};
