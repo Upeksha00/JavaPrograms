@@ -32,8 +32,8 @@ class TwoSum{
 					System.out.println("The related numbers are : " + numbers[i] + " and " + numbers[j]);
 
 			        }
+				//no actual need. On behalf of the simpliness
 			        else
-					
 					continue;
 			}
 
