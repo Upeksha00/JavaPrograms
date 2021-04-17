@@ -12,11 +12,11 @@ class TwoSum{
 			if given = 12
 			Then the out put = 4 and 8
 		*/
-		
+		//This is the array I proveided temporary.For the simpliness
 		int[] numbers = {2 , 5 , 7 , 3 , 10};
+		//Taking the user input to take the sum of the two numbers
 		System.out.print("Give the related sum of the numbers : ");
 		Scanner input = new Scanner(System.in);
-		
 		int given = input.nextInt();
 		
 		int sum = 0;
@@ -39,6 +39,7 @@ class TwoSum{
 			}
 
 		}
+		//if the provided sum by the user, do't given by two numbers in the array then this print statement will execute
 		if(flag == false){
 			System.out.println("The numbers are not precent in this array");
 
